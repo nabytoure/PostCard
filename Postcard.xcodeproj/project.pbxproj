@@ -13,6 +13,8 @@
 		A1E9E47A1ACE638A00B55C3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E9E4791ACE638A00B55C3A /* Images.xcassets */; };
 		A1E9E47D1ACE638A00B55C3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E9E47B1ACE638A00B55C3A /* LaunchScreen.xib */; };
 		A1E9E4891ACE638A00B55C3A /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E9E4881ACE638A00B55C3A /* PostcardTests.swift */; };
+		A1E9E4931ACEDD5700B55C3A /* mosqueeFaycal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1E9E4921ACEDD5700B55C3A /* mosqueeFaycal.jpg */; };
+		A1E9E4951ACEEEE500B55C3A /* SékouToure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1E9E4941ACEEEE500B55C3A /* SékouToure.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A1E9E4821ACE638A00B55C3A /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E9E4871ACE638A00B55C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E9E4881ACE638A00B55C3A /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		A1E9E4921ACEDD5700B55C3A /* mosqueeFaycal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mosqueeFaycal.jpg; sourceTree = "<group>"; };
+		A1E9E4941ACEEEE500B55C3A /* SékouToure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SékouToure.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		A1E9E4701ACE638A00B55C3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1E9E4921ACEDD5700B55C3A /* mosqueeFaycal.jpg */,
+				A1E9E4941ACEEEE500B55C3A /* SékouToure.jpg */,
 				A1E9E4711ACE638A00B55C3A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					A1E9E46C1ACE638A00B55C3A = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = TZF93J2DH4;
 					};
 					A1E9E4811ACE638A00B55C3A = {
 						CreatedOnToolsVersion = 6.2;
@@ -193,8 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E9E4781ACE638A00B55C3A /* Main.storyboard in Resources */,
+				A1E9E4951ACEEEE500B55C3A /* SékouToure.jpg in Resources */,
 				A1E9E47D1ACE638A00B55C3A /* LaunchScreen.xib in Resources */,
 				A1E9E47A1ACE638A00B55C3A /* Images.xcassets in Resources */,
+				A1E9E4931ACEDD5700B55C3A /* mosqueeFaycal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
