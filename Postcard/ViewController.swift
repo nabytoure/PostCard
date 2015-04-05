@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         messageLabel.text = "Salut " + enterName.text
         messageLabel.textColor = UIColor.blueColor()
         
+        //test commit on git
         enterName.text = ""
         enterMessage.resignFirstResponder()
         
